@@ -53,7 +53,7 @@ one_shot = true
 [node name="Cactus" parent="." groups=[
 "obstacles",
 ] instance=ExtResource( 11 )]
-position = Vector2( 317.74, 222.244 )
+position = Vector2( 328.157, 232.662 )
 [connection signal="hurt" from="Player" to="." method="_on_Player_hurt"]
 [connection signal="pickup" from="Player" to="." method="_on_Player_pickup"]
 [connection signal="timeout" from="GameTimer" to="." method="_on_GameTimer_timeout"]
